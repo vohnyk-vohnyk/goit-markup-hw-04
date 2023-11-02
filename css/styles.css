@@ -51,6 +51,19 @@ body {
     text-decoration: underline;
 }
 
+.menu-item:hover::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
+    content: "";
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -154,6 +167,12 @@ body {
 .promo {
     background-color: #2e2f42;
     padding: 188px 0;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .page-navigation {
@@ -227,6 +246,8 @@ body {
     gap: 24px;
 
 
+
+
 }
 .team_titles {
     font-weight: 500;
@@ -245,13 +266,43 @@ body {
 
     text-align: center;
 }
+
+
+
 .team_li {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 
 }
 
+.social_list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+    gap: 24px;
+}
+.social_list_item {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_list_icon {
+    fill: #404BBF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
 .emploi {
     padding: 32px 0;
 
@@ -283,6 +334,17 @@ body {
 
 .portfolio_list {
     width: calc((100% - 48px) / 3);
+
+
+}
+
+
+
+
+.portfolio_list:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+    Show 4 more colors
 
 }
 .annex {
@@ -333,6 +395,16 @@ body {
 
     padding: 100px 0;
 
+    display: flex;
+
+
+
+
+
+
+
+
+
 }
 .aside_article {
     line-height: 1.5;
@@ -371,4 +443,37 @@ body {
     font-weight: 700;
     font-size: 18px;
 
+}
+
+.social_last_list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+.social_media_last {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 16px;
+    gap: 16px;
+}
+
+.social_media_name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+    text-align: start;
+}
+
+.social{
+    display: flex;
+    gap: 120px;
 }
