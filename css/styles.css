@@ -555,9 +555,10 @@ li .trans_par:hover {
 
 .social_last_list {
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
-    gap: 12px;
+    gap: 16px;
 
 }
 
@@ -565,7 +566,7 @@ li .trans_par:hover {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 16px;
+    
     gap: 16px;
 }
 
@@ -585,7 +586,7 @@ li .trans_par:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+
 
 }
 
