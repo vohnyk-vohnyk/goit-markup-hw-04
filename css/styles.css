@@ -360,11 +360,11 @@ body {
 }
 
 .social_list_link:hover {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .social_list_link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 .social_list_icon {
 
@@ -588,4 +588,6 @@ body {
 .social{
     display: flex;
     gap: 120px;
+
+    align-items: baseline;
 }
