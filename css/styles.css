@@ -433,7 +433,7 @@ body {
 
 }
 
-.trans_par:hover {
+li .trans_par:hover {
     transform: translateY(0%);
 }
 
@@ -590,4 +590,26 @@ body {
     gap: 120px;
 
     align-items: baseline;
+}
+
+.social_list_link_last {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.social_list_link_last:hover {
+    background-color: #31d0aa;
+}
+
+.social_list_link_last:focus {
+    background-color: #31d0aa;
 }
